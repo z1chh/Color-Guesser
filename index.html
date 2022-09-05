@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto+Condensed:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <title>Color Guesser</title>
+  </head>
+  <body>
+    <header id="main-header">
+      <nav id="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link">Home</a>
+            <a
+              href="https://github.com/z1chh/JavaScript-Mini-Projects/tree/main/Color%20Guesser"
+              class="navbar-link"
+              target="_blank"
+              >Source Code</a
+            >
+            <a
+              href="https://github.com/z1chh"
+              class="navbar-link"
+              target="_blank"
+              >About Me</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <div id="name-section">
+        <h1 id="main-title">COLOR GUESSER</h1>
+        <h2 class="subtitle">Vanilla JavaScript Color Guesser</h2>
+      </div>
+
+      <div class="container">
+        <div id="game-menu-bar">
+          <p class="menu-bar-item" id="rgb-value">RGB(x, y, z)</p>
+          <p class="menu-bar-item" id="message">W/L</p>
+          <button class="menu-bar-item btn menu-btn" id="play-again">
+            PLAY AGAIN
+          </button>
+          <button class="menu-bar-item btn menu-btn" id="easy">EASY</button>
+          <button class="menu-bar-item btn menu-btn" id="hard">HARD</button>
+        </div>
+        <div id="game-container">
+          <button class="btn game-btn" id="color1">Color 1</button>
+          <button class="btn game-btn" id="color2">Color 2</button>
+          <button class="btn game-btn" id="color3">Color 3</button>
+        </div>
+      </div>
+    </main>
+
+    <footer id="main-footer">
+      &copy; 2022 Color Guesser. All Rights Reserved by Zi Chen Hu
+    </footer>
+
+    <script src="./js/script.js" defer></script>
+  </body>
+</html>

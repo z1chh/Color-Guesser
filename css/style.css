@@ -1,0 +1,144 @@
+/********************\
+*     Properties     *
+\********************/
+:root {
+    --grey-color: rgb(50, 50, 50);
+    --light-grey-color: rgb(110, 110, 110);
+    --white-color: rgb(222, 222, 222);
+    --orange-color: rgb(200, 150, 0);
+    --dark-orange-color: rgb(180, 135, 0);
+    --light-blue-color: rgb(0, 135, 150);
+    --dark-red-color: rgb(128, 10, 4);
+	--lato: 'Lato', sans-serif;
+	--roberto: 'Roberto Condensed', sans-serif;
+    --digital: 'Silkscreen', sans-serif;
+}
+
+
+/********************\
+*        Tags        *
+\********************/
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: var(--light-grey-color);
+    font-family: var(--roberto);
+}
+
+.subtitle {
+    color: var(--white-color);
+    font-family: var(--lato);
+    font-size: 2em;
+    text-align: center;
+    margin-top: 0.25em;
+    margin-bottom: 0;
+    padding-bottom: 0.8em;
+}
+
+
+/********************\
+*   Navigation Bar   *
+\********************/
+#navbar {
+    padding: 1.2em;
+    background: var(--grey-color);
+}
+
+.navbar-list {
+    color: var(--white-color);
+    font-family: var(--roberto);
+    text-align: center;
+}
+
+.navbar-item {
+    color: var(--white-color);
+    display: block;
+    list-style: none;
+}
+
+.navbar-link {
+    color: var(--white-color);
+    text-decoration: none;
+    margin-right: 1.8em;
+    transition: color 300ms;
+}
+
+.navbar-link:hover {
+    color: var(--orange-color);
+}
+
+
+/********************\
+*        Main        *
+\********************/
+#main-title {
+    color: var(--white-color);
+    font-family: var(--lato);
+    font-size: 5em;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0.5em;
+    margin-bottom: 0.25em;
+}
+
+#game-menu-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--white-color);
+}
+
+#game-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-bar-item {
+    padding: 1em;
+    font-size: 1em;
+    margin: 0 0.5em;
+    border: 1px var(--white-color) solid;
+    color: var(--orange-color);
+}
+
+.game-btn {
+    padding: 9em;
+    margin: 1.5em 0.5em;
+    margin-top: 7em;
+    background-color: var(--orange-color);
+    color: var(--white-color);
+    border-radius: 2em;
+    border: none;
+}
+
+.btn {
+    transition: all 200ms;
+}
+
+.menu-btn:hover {
+    background: var(--orange-color);
+    color: var(--white-color);
+}
+
+.game-btn:hover {
+    border: 1px var(--white-color) solid;
+    color: var(--orange-color);
+}
+
+
+/********************\
+*       Footer       *
+\********************/
+#main-footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding: 2em 0;
+    background: var(--grey-color);
+    color: var(--white-color);
+    font-size: 1.2em;
+    font-family: var(--roberto);
+}
